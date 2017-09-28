@@ -16,6 +16,6 @@ gulp.task('html', function(cb){
     cb()
 })
 gulp.task('sass', function(cb){
-    gulp.src('scss/*.scss').pipe(sass()).pipe(gulp.dest('./css/'))
+    gulp.src('scss/*.scss').pipe(sass()).pipe(gulp.dest('css'))
     cb()
 })
